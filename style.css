@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&family=Red+Hat+Display:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(236, 175, 175);
+  font-family: "Outfit", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
+}
+.container {
+  margin: 0 auto;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.box-text {
+  background-color: white;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.card {
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+.box-order {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.text-order {
+  margin-top: 20px;
+  font-size: 16px;
+  color: rgb(128, 124, 124);
+}
+.title-order {
+  font-size: 30px;
+}
+.img-card {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.box-sub {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 20px 20px 0 20px;
+}
+.left-sub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-plan {
+  font-size: 15px;
+}
+.text-price {
+  font-size: 13px;
+  color: darkgray;
+}
+.sub-text {
+  margin-left: 15px;
+}
+.box-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+}
+.btn {
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+.confirm-btn {
+  margin-bottom: 20px;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+}
+.cancel-btn {
+  background: none;
+  color: darkgray;
+}
